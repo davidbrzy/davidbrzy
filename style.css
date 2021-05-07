@@ -1,0 +1,29 @@
+body {
+    margin: 0px;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.kostka {
+    width: 150px;
+    height: 150px;
+    margin: 30px;
+    border: 2px solid #000000;
+    border-radius: 20px;
+}
+
+.kostka:hover {
+    transition: 0.5s ease-in-out;
+    transform: rotate(20deg);
+}
+
+.puntik {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    background-color: #000000;
+    border-radius: 100%;
+}
